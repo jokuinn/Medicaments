@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<medicaments xmlns="http://epam.com/medicaments">
+    <Pills id="p1">
+        <name>Арпетол</name>
+        <pharm>Лекфарм</pharm>
+        <group>Противовирусное</group>
+        <quantityPackage>30</quantityPackage>
+        <receivingFrequency>2</receivingFrequency>
+    </Pills>
+    <Pills id="p2">
+        <name>Анаферон</name>
+        <pharm>Материа Медиа</pharm>
+        <group>Противовирусное</group>
+        <quantityPackage>20</quantityPackage>
+        <receivingFrequency>8</receivingFrequency>
+    </Pills>
+
+    <Powder id="pow1">
+        <name>Орвиколд</name>
+        <pharm>Лекфарм</pharm>
+        <group>Противовирусное</group>
+        <weightPacket>0.35</weightPacket>
+        <receivingFrequency>3</receivingFrequency>
+    </Powder>
+    <Powder id="pow2">
+        <name>Терафлю</name>
+        <pharm>Famar Orleans</pharm>
+        <group>Противовирусное</group>
+        <weightPacket>0.35</weightPacket>
+        <receivingFrequency>3</receivingFrequency>
+    </Powder>
+
+    <Drops id="d1">
+        <name>Визин</name>
+        <pharm>Johnson and Johnson</pharm>
+        <group>Противовоспалительные</group>
+        <capacity>15</capacity>
+        <receivingFrequency>3</receivingFrequency>
+    </Drops>
+    <Drops id="d2">
+        <name>Ретинол</name>
+        <pharm>Технолог</pharm>
+        <group>Витамины</group>
+        <capacity>10</capacity>
+        <receivingFrequency>3</receivingFrequency>
+    </Drops>
+</medicaments>

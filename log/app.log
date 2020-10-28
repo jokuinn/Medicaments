@@ -1,0 +1,145 @@
+2020-10-26 12:53:54 ERROR PillsDOMBuilder:55 - File error or I/O error: java.io.FileNotFoundException: C:\Users\Jokuinn\IdeaProjects\Medicaments\data\medicaments.xml (Системе не удается найти указанный путь)
+2020-10-26 12:55:04 ERROR PillsDOMBuilder:55 - File error or I/O error: java.io.FileNotFoundException: C:\Users\Jokuinn\IdeaProjects\Medicaments\src\java\com.epam.medicaments\data\medicaments.xml (Системе не удается найти указанный путь)
+2020-10-26 16:10:43 ERROR StaxBuilder:73 - StAX parsing error!Unknown element in tag Pills
+2020-10-26 16:11:28 ERROR StaxBuilder:73 - StAX parsing error!Unknown element in tag Pills
+2020-10-26 16:12:16 ERROR StaxBuilder:75 - StAX parsing error!Unknown element in tag Pills
+2020-10-26 16:14:42 ERROR StaxBuilder:79 - StAX parsing error!Unknown element in tag Pills
+2020-10-26 16:15:19 ERROR StaxBuilder:79 - StAX parsing error!Unknown element in tag Powders
+2020-10-26 16:16:25 ERROR StaxBuilder:75 - StAX parsing error!Unknown element in tag Powders
+2020-10-26 16:18:00 ERROR StaxBuilder:75 - StAX parsing error!Unknown element in tag Powders
+2020-10-26 16:20:21 ERROR StaxBuilder:75 - StAX parsing error!Unknown element in tag Powders
+2020-10-26 16:22:37 ERROR StaxBuilder:75 - StAX parsing error!Unknown element in tag Powders
+2020-10-26 16:24:46 ERROR StaxBuilder:75 - StAX parsing error!Unknown element in tag Powders
+2020-10-26 16:25:23 ERROR StaxBuilder:75 - StAX parsing error!Unknown element in tag Powders
+2020-10-26 16:26:05 ERROR StaxBuilder:75 - StAX parsing error!Unknown element in tag Powders
+2020-10-26 16:26:29 ERROR StaxBuilder:75 - StAX parsing error!Unknown element in tag Powders
+2020-10-26 16:27:30 ERROR StaxBuilder:73 - StAX parsing error!Unknown element in tag Powders
+2020-10-26 17:59:41 INFO  Main:22 - start Main
+2020-10-26 17:59:41 INFO  Main:24 - Create factory
+2020-10-26 17:59:41 INFO  Main:29 - Parse Xml-file
+2020-10-26 17:59:41 INFO  Main:33 - Finish
+2020-10-26 21:18:18 INFO  Main:22 - start Main
+2020-10-26 21:18:18 INFO  Main:24 - Create factory
+2020-10-26 21:18:18 ERROR Main:16 - com.epam.medicaments.model.MedTagName.QUANTITYPACKAGE
+java.lang.EnumConstantNotPresentException: com.epam.medicaments.model.MedTagName.QUANTITYPACKAGE
+	at com.epam.medicaments.dao.parser.sax.MedicamentsHandler.characters(MedicamentsHandler.java:87)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.characters(AbstractSAXParser.java:547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:457)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1141)
+	at SaxBuilder.buildList(SaxBuilder.java:51)
+	at com.epam.medicaments.Main.process(Main.java:27)
+	at com.epam.medicaments.Main.main(Main.java:14)
+2020-10-26 21:20:38 INFO  Main:22 - start Main
+2020-10-26 21:20:38 INFO  Main:24 - Create factory
+2020-10-26 21:27:35 ERROR Main:16 - com.epam.medicaments.model.MedTagName.QUANTITYPACKAGE
+java.lang.EnumConstantNotPresentException: com.epam.medicaments.model.MedTagName.QUANTITYPACKAGE
+	at com.epam.medicaments.dao.parser.sax.MedicamentsHandler.characters(MedicamentsHandler.java:87)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.characters(AbstractSAXParser.java:547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:457)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1141)
+	at SaxBuilder.buildList(SaxBuilder.java:51)
+	at com.epam.medicaments.Main.process(Main.java:27)
+	at com.epam.medicaments.Main.main(Main.java:14)
+2020-10-26 21:27:45 INFO  Main:22 - start Main
+2020-10-26 21:27:45 INFO  Main:24 - Create factory
+2020-10-26 21:27:45 ERROR Main:16 - No enum constant com.epam.medicaments.model.MedTagName.QUANTITYPACKAGE
+java.lang.IllegalArgumentException: No enum constant com.epam.medicaments.model.MedTagName.QUANTITYPACKAGE
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at com.epam.medicaments.model.MedTagName.valueOf(MedTagName.java:3)
+	at com.epam.medicaments.dao.parser.sax.MedicamentsHandler.startElement(MedicamentsHandler.java:51)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:510)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:375)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:113)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:507)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1141)
+	at SaxBuilder.buildList(SaxBuilder.java:51)
+	at com.epam.medicaments.Main.process(Main.java:27)
+	at com.epam.medicaments.Main.main(Main.java:14)
+2020-10-26 21:32:08 INFO  Main:22 - start Main
+2020-10-26 21:32:08 INFO  Main:24 - Create factory
+2020-10-26 21:32:08 ERROR Main:16 - No enum constant com.epam.medicaments.model.MedTagName.QUANTITYPACKAGE
+java.lang.IllegalArgumentException: No enum constant com.epam.medicaments.model.MedTagName.QUANTITYPACKAGE
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at com.epam.medicaments.model.MedTagName.valueOf(MedTagName.java:3)
+	at com.epam.medicaments.dao.parser.sax.MedicamentsHandler.startElement(MedicamentsHandler.java:51)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:510)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:375)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:113)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:507)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1141)
+	at SaxBuilder.buildList(SaxBuilder.java:51)
+	at com.epam.medicaments.Main.process(Main.java:27)
+	at com.epam.medicaments.Main.main(Main.java:14)
+2020-10-26 21:33:04 INFO  Main:22 - start Main
+2020-10-26 21:33:04 INFO  Main:24 - Create factory
+2020-10-26 21:33:04 ERROR Main:16 - com.epam.medicaments.model.MedTagName.QUANTITYPACKAGE
+java.lang.EnumConstantNotPresentException: com.epam.medicaments.model.MedTagName.QUANTITYPACKAGE
+	at com.epam.medicaments.dao.parser.sax.MedicamentsHandler.characters(MedicamentsHandler.java:87)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.characters(AbstractSAXParser.java:547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:457)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1141)
+	at SaxBuilder.buildList(SaxBuilder.java:51)
+	at com.epam.medicaments.Main.process(Main.java:27)
+	at com.epam.medicaments.Main.main(Main.java:14)
+2020-10-26 21:34:42 INFO  Main:22 - start Main
+2020-10-26 21:34:42 INFO  Main:24 - Create factory
+2020-10-26 21:34:42 ERROR Main:16 - com.epam.medicaments.model.MedTagName.WEIGHTPACKET
+java.lang.EnumConstantNotPresentException: com.epam.medicaments.model.MedTagName.WEIGHTPACKET
+	at com.epam.medicaments.dao.parser.sax.MedicamentsHandler.characters(MedicamentsHandler.java:89)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.characters(AbstractSAXParser.java:547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:457)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1141)
+	at SaxBuilder.buildList(SaxBuilder.java:51)
+	at com.epam.medicaments.Main.process(Main.java:27)
+	at com.epam.medicaments.Main.main(Main.java:14)
+2020-10-26 21:37:35 INFO  Main:22 - start Main
+2020-10-26 21:37:35 INFO  Main:24 - Create factory
+2020-10-26 21:37:35 ERROR Main:16 - 
+java.lang.NullPointerException
+	at com.epam.medicaments.dao.parser.sax.MedicamentsHandler.characters(MedicamentsHandler.java:85)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.characters(AbstractSAXParser.java:547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:457)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1141)
+	at SaxBuilder.buildList(SaxBuilder.java:51)
+	at com.epam.medicaments.Main.process(Main.java:27)
+	at com.epam.medicaments.Main.main(Main.java:14)
+2020-10-26 21:39:03 INFO  Main:22 - start Main
+2020-10-26 21:39:03 INFO  Main:24 - Create factory
+2020-10-26 21:39:03 INFO  Main:29 - Parse Xml-file
+2020-10-26 21:39:03 INFO  Main:33 - Finish
+2020-10-26 21:39:35 INFO  Main:22 - start Main
+2020-10-26 21:39:35 INFO  Main:24 - Create factory
+2020-10-26 21:39:35 INFO  Main:29 - Parse Xml-file
+2020-10-26 21:39:35 INFO  Main:33 - Finish
+2020-10-28 12:57:01 INFO  Main:22 - start Main
+2020-10-28 12:57:01 INFO  Main:24 - Create factory
+2020-10-28 12:57:01 INFO  Main:29 - Parse Xml-file
+2020-10-28 12:57:01 INFO  Main:33 - Finish
+2020-10-28 13:35:33 INFO  SaxBuilder:34 - javax.xml.bind.JAXBException: Provider com.sun.xml.internal.bind.v2.ContextFactory could not be instantiated: javax.xml.bind.JAXBException: "com.epam.medicaments" doesnt contain ObjectFactory.class or jaxb.index
+ - with linked exception:
+[javax.xml.bind.JAXBException: "com.epam.medicaments" doesnt contain ObjectFactory.class or jaxb.index]

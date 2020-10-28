@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://epam.com/medicaments"
+        xmlns:medicaments="http://epam.com/medicaments"
+        elementFormDefault="qualified">
+    <element name="medicaments" type="medicaments:med"/>
+
+    <complexType name="med">
+        <sequence>
+            <element name="Pills" type="medicaments:pill" maxOccurs="unbounded"/>
+            <element name="Powder" type="medicaments:powder" maxOccurs="unbounded"/>
+            <element name="Drops" type="medicaments:drops" maxOccurs="unbounded"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="pill">
+        <sequence>
+            <element name="name">
+                <simpleType>
+                    <restriction base="string">
+                        <maxLength value="50"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="pharm" type="string" />
+            <element name="group" type="string" />
+            <element name="quantityPackage" type="positiveInteger" />
+            <element name="receivingFrequency" type="positiveInteger"/>
+        </sequence>
+        <attribute name="id" use="required" type="ID"/>
+    </complexType>
+    <complexType name="powder">
+        <sequence>
+            <element name="name">
+                <simpleType>
+                    <restriction base="string">
+                        <maxLength value="50"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="pharm" type="string"/>
+            <element name="group" type="string"/>
+            <element name="weightPacket" type="double"/>
+            <element name="receivingFrequency" type="positiveInteger"/>
+        </sequence>
+        <attribute name="id" use="required" type="ID"/>
+    </complexType>
+    <complexType name="drops">
+        <sequence>
+            <element name="name">
+                <simpleType>
+                    <restriction base="string">
+                        <maxLength value="50"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="pharm" type="string" />
+            <element name="group" type="string" />
+            <element name="capacity" type="positiveInteger" />
+            <element name="receivingFrequency" type="positiveInteger" />
+        </sequence>
+        <attribute name="id" use="required" type="ID"/>
+    </complexType>
+</schema>
